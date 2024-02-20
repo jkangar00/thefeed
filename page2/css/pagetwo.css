@@ -17,6 +17,21 @@ h1 img{
     display: inline;
 }
 
+h2 a img{
+    height: 100px;
+    width: auto;
+    border: solid 10px black;
+    border-width: 3px 8px 8px 4px;
+    max-width: 100%;
+    align-content: center;
+    display: block;
+}
+
+footer{
+    align-content: center;
+    margin: auto;
+}
+
 video{
     height: auto;
     width: 320px;
