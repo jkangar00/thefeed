@@ -1,0 +1,115 @@
+img{
+    height: auto;
+    width: 400px;
+    margin: 0 auto;
+    max-width: 100%;
+    align-content: center;
+    display: inline;
+}
+
+h1 img{
+    height: auto;
+    width: 600px;
+    align-content: center;
+    margin: 0 auto;
+    padding-bottom: 0px;
+    max-width: 100%;
+    display: inline;
+}
+
+video{
+    height: auto;
+    width: 320px;
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 50px 50px 50px 50px;
+    display: inline;
+}
+
+audio{
+    display: block;
+    padding-left: 300px;
+}
+
+section{
+    margin-left: 80px;
+    padding-right: 70px
+}
+
+h1{
+    text-align:center;
+    margin:auto;
+}
+
+p{
+    text-decoration:none;
+    color:black;
+    font-family: "dreaming-outloud-sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    text-align:center;
+    width: auto;
+    height: 50px;
+}
+
+nav{
+    border: solid 10px black;
+    border-width: 3px 10px 12px 4px;
+    background-color: white;
+    position: relative;
+    width: auto;
+    height: 200px;
+    overflow: hidden;
+    margin: 0px 200px 50px 200px;
+    padding: 10px 50px 20px 50px;
+}
+
+audio{
+    padding: 50px 300px 50px 0px;
+    height: 50px;
+}
+
+a{
+    text-decoration:none;
+    color:white;
+    font-family: "beloved-script", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+    text-align:center; 
+    margin:none;
+}
+
+body {
+    background-image: url(../../img/background_pg2.gif);
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: cover;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
+    overflow-y: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+html, body {
+    cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='49' height='59' viewport='0 0 100 100' style='fill:black;font-size:29px;'><text y='45%'>🌙</text></svg>") 16 0, auto;
+}
+
+button {
+    position: fixed;
+    bottom: 5px;
+    right: 50px;
+    z-index: 999; /* Ensure the button appears above other content */
+    background-color: transparent;
+    border: none;
+    padding: 0; 
+}
+
+/* Style the button image */
+button img {
+    width: 70px;
+    height: auto; 
+}

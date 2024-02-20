@@ -1,0 +1,32 @@
+body {
+    background-image: url(../img/background_pg1.gif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
+}
+
+a{
+    color:white;
+    text-align:center;
+}
+
+img {
+    height: 500px;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    padding-top:170px;
+}
+
+.image{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
+}
