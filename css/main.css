@@ -1,5 +1,5 @@
 body {
-    background-image: url(../img/background_pg1.gif);
+    background-image: url(../img/thefeedtitle.gif);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -9,9 +9,16 @@ body {
     height: 100vh;
 }
 
+p{
+    margin: 100px 100px 100px 100px;
+    padding-top: 100px;
+    text-align: center;
+}
+
 a{
-    color:white;
+    color:#20237a;
     text-align:center;
+    text-decoration: none;
 }
 
 img {
