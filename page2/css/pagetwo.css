@@ -18,10 +18,8 @@ h1 img{
 }
 
 h2 a img{
-    height: 100px;
+    height: 150px;
     width: auto;
-    border: solid 10px black;
-    border-width: 3px 8px 8px 4px;
     max-width: 100%;
     align-content: center;
     display: block;
@@ -39,11 +37,6 @@ video{
     max-width: 100%;
     padding: 50px 50px 50px 50px;
     display: inline;
-}
-
-audio{
-    display: block;
-    padding-left: 300px;
 }
 
 section{
@@ -65,7 +58,6 @@ p{
     font-size: 30px;
     text-align:center;
     width: auto;
-    height: 50px;
 }
 
 nav{
@@ -74,15 +66,24 @@ nav{
     background-color: white;
     position: relative;
     width: auto;
-    height: 200px;
+    max-width: 1000px;
+    height: 300px;
     overflow: hidden;
-    margin: 0px 200px 50px 200px;
-    padding: 10px 50px 20px 50px;
+    margin: 0px 300px 100px 300px;
+    padding: 5px 50px 20px 50px;    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column
 }
 
 audio{
-    padding: 50px 300px 50px 0px;
-    height: 50px;
+    position: absolute;
+    left: 50%;
+    bottom: -20px;
+    transform: translateX(-50%);
+    width: 60%; 
+    text-align: center;
+    padding-bottom: 50px;
 }
 
 a{
@@ -113,18 +114,34 @@ html, body {
     cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='49' height='59' viewport='0 0 100 100' style='fill:black;font-size:29px;'><text y='45%'>🌙</text></svg>") 16 0, auto;
 }
 
-button {
-    position: fixed;
-    bottom: 5px;
-    right: 50px;
-    z-index: 999; /* Ensure the button appears above other content */
+.cow {
+    position: absolute;
+    left: 30px;
+    top: 20px;
+    z-index: 10;
     background-color: transparent;
     border: none;
     padding: 0; 
 }
 
-/* Style the button image */
+.cow img {
+    width: 150px;
+    height: auto; 
+    z-index: 1;
+}
+
+button {
+    position: fixed;
+    bottom: 5px;
+    right: 50px;
+    z-index: 999;
+    background-color: transparent;
+    border: none;
+    padding: 0; 
+}
+
 button img {
     width: 70px;
     height: auto; 
 }
+

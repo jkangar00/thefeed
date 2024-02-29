@@ -1,18 +1,21 @@
 body {
-    background-image: url(../img/thefeedtitle.gif);
+    background-image: url(../img/background_pg1.gif);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    background-position: center;
     display: flex;
     justify-content: center; 
     align-items: center; 
     height: 100vh;
+    width: auto;
 }
 
 p{
     margin: 100px 100px 100px 100px;
     padding-top: 100px;
     text-align: center;
+    opacity: 0%;
 }
 
 a{
